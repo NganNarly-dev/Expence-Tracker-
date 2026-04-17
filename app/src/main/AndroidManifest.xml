@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExpenseTrackerApp">
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
